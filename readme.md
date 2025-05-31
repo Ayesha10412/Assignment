@@ -34,7 +34,7 @@ create table order(
     amount integer
 );
 
-এখানে student_id হলো Foreitgn key - এটি student টেবিলের student_id কে নির্দেশ করে । 
+এখানে student_id হলো Foreign key - এটি student টেবিলের student_id কে নির্দেশ করে । 
 Primary key ইউনিক ও NULL নয় কিন্তু Foreign key ডুপ্লিকেট থাকতে পারে, NULL ও হতে পরে। একটি টেবিল এ একটি প্রাইমারি কী থাকবে অন্যদিকে একটি টেবিল এ একাধিক ফরেন key থাকতে পারে। 
 
 4. What is the difference between the VARCHAR and CHAR data types?
